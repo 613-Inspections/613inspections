@@ -53,7 +53,7 @@ body {
 @media screen and (max-width: 560px) {
 	.icon{
 		padding:10px 5px 10px 5px;
-		font-size: small;
+		font-size: medium;
 	}
 }
 

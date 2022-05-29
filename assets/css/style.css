@@ -80,7 +80,7 @@ h6 {
   background: #000;
 }
 #header .logo h1 {
-  font-size: 30px;
+  font-size: 24px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
@@ -330,16 +330,17 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 70px);
-  background: url("../img/hero-bg.jpg") center center;
-  background-size: cover;
+  height: calc(80vh - 70px);
+  background: url("../img/logo.svg") rgba(0, 0, 0, 1) center center;
+  background-size: 100% calc(80vh - 70px);
+  background-repeat: no-repeat;
   position: relative;
   margin-top: 70px;
   padding: 0;
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -386,7 +387,7 @@ h6 {
 @media (max-width: 992px) {
   #hero {
     margin-top: 60px;
-    height: calc(100vh - 60px);
+    height: calc(80vh - 60px);
   }
 }
 @media (max-width: 768px) {
@@ -495,7 +496,7 @@ section {
 .about .icon-box i {
   font-size: 48px;
   float: left;
-  color: #1bac91;
+  color: #2282ff;
 }
 .about .icon-box h4 {
   font-size: 22px;
@@ -603,6 +604,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  width: 100%;
   padding: 30px;
   position: relative;
   overflow: hidden;

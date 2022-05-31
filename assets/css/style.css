@@ -88,6 +88,15 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+#header .logo p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0px 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #fff;
@@ -330,9 +339,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(80vh - 70px);
+  height: calc(85vh - 70px);
   background: url("../img/logo.svg") rgba(0, 0, 0, 1) center center;
-  background-size: 100% calc(80vh - 70px);
+  background-size: 100% 65vh;
   background-repeat: no-repeat;
   position: relative;
   margin-top: 70px;
@@ -411,7 +420,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f9f8;
+  background-color: #edf5f9;
 }
 
 .section-title {
@@ -491,7 +500,7 @@ section {
   color: #21413c;
 }
 .about .icon-box {
-  margin-top: 44px;
+  margin-top: 15px;
 }
 .about .icon-box i {
   font-size: 48px;
@@ -505,6 +514,34 @@ section {
   color: #21413c;
 }
 .about .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+/*--------------------------------------------------------------
+# Inspection Components
+--------------------------------------------------------------*/
+.inspection-components h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #21413c;
+}
+.inspection-components .icon-box {
+  margin-top: 15px;
+}
+.inspection-components .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #2282ff;
+}
+.inspection-components .icon-box h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 60px;
+  color: #21413c;
+}
+.inspection-components .icon-box p {
   font-size: 15px;
   color: #848484;
   margin-left: 60px;
@@ -1347,3 +1384,104 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/* Slider starts: https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+#gallery .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+#gallery .mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+#gallery .prev,
+#gallery .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+#gallery .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#gallery .prev:hover,
+#gallery .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+#gallery .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+#gallery .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+#gallery .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#gallery .active,
+#gallery .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#gallery .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slider ends */

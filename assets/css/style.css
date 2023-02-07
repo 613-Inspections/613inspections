@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: #2282ff;
   text-decoration: none;
 }
 
@@ -1066,6 +1066,7 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #000;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
@@ -1165,6 +1166,11 @@ section {
   background: #2282ff;
   color: #fff;
 }
+
+.contact .info a {
+  color: #000;
+}
+
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {

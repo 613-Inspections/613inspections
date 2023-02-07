@@ -1,0 +1,1 @@
+"rename-jpeg": "cd assets/img/gallery && for img in *.jpg; do mv $img `basename $img .jpg`.jpeg; done"

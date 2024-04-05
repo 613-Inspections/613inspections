@@ -1,0 +1,24 @@
+{
+  "name": "613inspections",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress": "gzip assets/img/gallery-uncompressed/**/*.jpeg -o assets/img/gallery/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassamhussien/613inspections.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassamhussien/613inspections/issues"
+  },
+  "homepage": "https://github.com/bassamhussien/613inspections#readme",
+  "dependencies": {
+    "gzip-cli": "^1.2.0",
+    "simple-slider": "^1.0.1"
+  }
+}

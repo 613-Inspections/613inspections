@@ -1,3 +1,5 @@
+import visa from "../assets/visa.png";
+
 export function ContactUs() {
   return (
     <section id="contact" className="contact">
@@ -71,7 +73,7 @@ export function ContactUs() {
               <div className="col">
                 <img
                   style={{ maxWidth: "50%", maxHeight: "100%" }}
-                  src="assets/img/visa.png"
+                  src={visa}
                 />
               </div>
             </div>

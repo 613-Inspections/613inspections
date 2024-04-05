@@ -1,4 +1,4 @@
-export function ServicesSection({}) {
+export function ServicesSection() {
   return (
     <section id="services" className="about section-bg">
       <div className="container">
@@ -15,63 +15,65 @@ export function ServicesSection({}) {
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search"></i>
-              <h4 style="font-size: 20px">Thermal Imaging</h4>
+              <h4 style={{ fontSize: "20px" }}>Thermal Imaging</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search"></i>
-              <h4 style="font-size: 20px">Pre-delivery Inspection (PDI)</h4>
+              <h4 style={{ fontSize: "20px" }}>
+                Pre-delivery Inspection (PDI)
+              </h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search"></i>
-              <h4 style="font-size: 20px">11-month Inspection (Tarion)</h4>
+              <h4 style={{ fontSize: "20px" }}>11-month Inspection (Tarion)</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search"></i>
-              <h4 style="font-size: 20px">30 Day Tarion Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>30 Day Tarion Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search"></i>
-              <h4 style="font-size: 20px">Pre-list Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>Pre-list Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">Pre-purchase Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>Pre-purchase Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">Pre-renovation Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>Pre-renovation Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">Problem Solving Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>Problem Solving Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">
+              <h4 style={{ fontSize: "20px" }}>
                 Maintenance Inspection (for Rental Properties)
               </h4>
             </div>
@@ -80,14 +82,14 @@ export function ServicesSection({}) {
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">New Build Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>New Build Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">
+              <h4 style={{ fontSize: "20px" }}>
                 Course of Construction (COC) Inspection
               </h4>
             </div>
@@ -96,21 +98,21 @@ export function ServicesSection({}) {
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">Progress Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>Progress Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">Legal Dispute Inspection</h4>
+              <h4 style={{ fontSize: "20px" }}>Legal Dispute Inspection</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-12">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-search-alt-2"></i>
-              <h4 style="font-size: 20px">
+              <h4 style={{ fontSize: "20px" }}>
                 General Conformance Construction Review
               </h4>
               <p>

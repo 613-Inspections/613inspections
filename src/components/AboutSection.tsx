@@ -6,8 +6,7 @@ export function AboutSection() {
           <div className="col-xl-6 col-lg-7" data-aos="fade-right">
             <img
               loading="lazy"
-              async
-              src="assets/img/about/about.jpeg"
+              src="/img/about/about.jpeg"
               className="img-fluid"
               alt=""
             />

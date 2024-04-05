@@ -15,56 +15,56 @@ export function InspectionComponentsSection() {
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Structure & Foundation</h4>
+              <h4 style={{ fontSize: "20px" }}>Structure & Foundation</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Roofing and Flashing</h4>
+              <h4 style={{ fontSize: "20px" }}>Roofing and Flashing</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Heating & Air Conditioning</h4>
+              <h4 style={{ fontSize: "20px" }}>Heating & Air Conditioning</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Electrical Systems</h4>
+              <h4 style={{ fontSize: "20px" }}>Electrical Systems</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Plumbing Systems</h4>
+              <h4 style={{ fontSize: "20px" }}>Plumbing Systems</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Exterior Finishes & Windows</h4>
+              <h4 style={{ fontSize: "20px" }}>Exterior Finishes & Windows</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Attic and Ventilation</h4>
+              <h4 style={{ fontSize: "20px" }}>Attic and Ventilation</h4>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <i className="bx bx-check"></i>
-              <h4 style="font-size: 20px">Kitchen and Bathrooms</h4>
+              <h4 style={{ fontSize: "20px" }}>Kitchen and Bathrooms</h4>
             </div>
           </div>
         </div>

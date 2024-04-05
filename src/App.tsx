@@ -6,7 +6,7 @@ import { InspectionComponentsSection } from "./components/InspectionComponentsSe
 import { ServicesSection } from "./components/ServicesSection";
 import { AboutSection } from "./components/AboutSection";
 import { HeroSection } from "./components/HeroSection";
-import "./App.css";
+import "./Theme.css";
 import { Header } from "./components/Header";
 import { Gallery } from "./components/Gallery";
 

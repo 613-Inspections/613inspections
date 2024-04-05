@@ -1,5 +1,8 @@
-import React from "react";
-export function TeamSection({}) {
+import team1URL from "../assets/team/team-1.jpeg";
+import carson from "../assets/team/carson-dunlop-school.jpeg";
+import interNACHI from "../assets/team/InterNACHI-certification-stamp.png";
+
+export function TeamSection() {
   return (
     <section id="team" className="team">
       <div className="container">
@@ -10,11 +13,7 @@ export function TeamSection({}) {
         <div className="row">
           <div className="col-lg-3 col-sm-6" data-aos="fade-up">
             <div className="member">
-              <img
-                src="assets/img/team/team-1.jpeg"
-                className="img-fluid"
-                alt=""
-              />
+              <img src={team1URL} className="img-fluid" alt="" />
             </div>
           </div>
           <div className="col-lg-6 col-sm-6" data-aos="fade-up">
@@ -46,21 +45,13 @@ export function TeamSection({}) {
             className="col-lg-3 col-sm-3 col-6 offset-lg-3 offset-sm-6"
             data-aos="fade-up"
           >
-            <img
-              src="assets/img/carson-dunlop-school.jpeg"
-              className="img-fluid"
-              alt=""
-            />
+            <img src={carson} className="img-fluid" alt="" />
           </div>
           <div
             className="col-lg-3 col-sm-3 col-6 offset-lg-0"
             data-aos="fade-up"
           >
-            <img
-              src="assets/img/InterNACHI-certification-stamp.png"
-              className="img-fluid"
-              alt=""
-            />
+            <img src={interNACHI} alt="" />
           </div>
         </div>
       </div>

@@ -7,12 +7,220 @@ const images = [
     thumbnail: "/img/gallery/1.jpeg",
   },
   {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
+    original: "/img/gallery/2.jpeg",
+    thumbnail: "/img/gallery/2.jpeg",
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
+    original: "/img/gallery/3.jpeg",
+    thumbnail: "/img/gallery/3.jpeg",
+  },
+  {
+    original: "/img/gallery/4.jpeg",
+    thumbnail: "/img/gallery/4.jpeg",
+  },
+  {
+    original: "/img/gallery/5.jpeg",
+    thumbnail: "/img/gallery/5.jpeg",
+  },
+  {
+    original: "/img/gallery/6.jpeg",
+    thumbnail: "/img/gallery/6.jpeg",
+  },
+  {
+    original: "/img/gallery/7.jpeg",
+    thumbnail: "/img/gallery/7.jpeg",
+  },
+  {
+    original: "/img/gallery/8.jpeg",
+    thumbnail: "/img/gallery/8.jpeg",
+  },
+  {
+    original: "/img/gallery/9.jpeg",
+    thumbnail: "/img/gallery/9.jpeg",
+  },
+  {
+    original: "/img/gallery/10.jpeg",
+    thumbnail: "/img/gallery/10.jpeg",
+  },
+  {
+    original: "/img/gallery/11.jpeg",
+    thumbnail: "/img/gallery/11.jpeg",
+  },
+  {
+    original: "/img/gallery/12.jpeg",
+    thumbnail: "/img/gallery/12.jpeg",
+  },
+  {
+    original: "/img/gallery/13.jpeg",
+    thumbnail: "/img/gallery/13.jpeg",
+  },
+  {
+    original: "/img/gallery/14.jpeg",
+    thumbnail: "/img/gallery/14.jpeg",
+  },
+  {
+    original: "/img/gallery/15.jpeg",
+    thumbnail: "/img/gallery/15.jpeg",
+  },
+  {
+    original: "/img/gallery/16.jpeg",
+    thumbnail: "/img/gallery/16.jpeg",
+  },
+  {
+    original: "/img/gallery/17.jpeg",
+    thumbnail: "/img/gallery/17.jpeg",
+  },
+  {
+    original: "/img/gallery/18.jpeg",
+    thumbnail: "/img/gallery/18.jpeg",
+  },
+  {
+    original: "/img/gallery/19.jpeg",
+    thumbnail: "/img/gallery/19.jpeg",
+  },
+  {
+    original: "/img/gallery/20.jpeg",
+    thumbnail: "/img/gallery/20.jpeg",
+  },
+  {
+    original: "/img/gallery/21.jpeg",
+    thumbnail: "/img/gallery/21.jpeg",
+  },
+  {
+    original: "/img/gallery/22.jpeg",
+    thumbnail: "/img/gallery/22.jpeg",
+  },
+  {
+    original: "/img/gallery/23.jpeg",
+    thumbnail: "/img/gallery/23.jpeg",
+  },
+  {
+    original: "/img/gallery/24.jpeg",
+    thumbnail: "/img/gallery/24.jpeg",
+  },
+  {
+    original: "/img/gallery/25.jpeg",
+    thumbnail: "/img/gallery/25.jpeg",
+  },
+  {
+    original: "/img/gallery/26.jpeg",
+    thumbnail: "/img/gallery/26.jpeg",
+  },
+  {
+    original: "/img/gallery/27.jpeg",
+    thumbnail: "/img/gallery/27.jpeg",
+  },
+  {
+    original: "/img/gallery/28.jpeg",
+    thumbnail: "/img/gallery/28.jpeg",
+  },
+  {
+    original: "/img/gallery/29.jpeg",
+    thumbnail: "/img/gallery/29.jpeg",
+  },
+  {
+    original: "/img/gallery/30.jpeg",
+    thumbnail: "/img/gallery/30.jpeg",
+  },
+  {
+    original: "/img/gallery/31.jpeg",
+    thumbnail: "/img/gallery/31.jpeg",
+  },
+  {
+    original: "/img/gallery/32.jpeg",
+    thumbnail: "/img/gallery/32.jpeg",
+  },
+  {
+    original: "/img/gallery/33.jpeg",
+    thumbnail: "/img/gallery/33.jpeg",
+  },
+  {
+    original: "/img/gallery/34.jpeg",
+    thumbnail: "/img/gallery/34.jpeg",
+  },
+  {
+    original: "/img/gallery/35.jpeg",
+    thumbnail: "/img/gallery/35.jpeg",
+  },
+  {
+    original: "/img/gallery/36.jpeg",
+    thumbnail: "/img/gallery/36.jpeg",
+  },
+  {
+    original: "/img/gallery/37.jpeg",
+    thumbnail: "/img/gallery/37.jpeg",
+  },
+  {
+    original: "/img/gallery/38.jpeg",
+    thumbnail: "/img/gallery/38.jpeg",
+  },
+  {
+    original: "/img/gallery/39.jpeg",
+    thumbnail: "/img/gallery/39.jpeg",
+  },
+  {
+    original: "/img/gallery/40.jpeg",
+    thumbnail: "/img/gallery/40.jpeg",
+  },
+  {
+    original: "/img/gallery/41.jpeg",
+    thumbnail: "/img/gallery/41.jpeg",
+  },
+  {
+    original: "/img/gallery/42.jpeg",
+    thumbnail: "/img/gallery/42.jpeg",
+  },
+  {
+    original: "/img/gallery/43.jpeg",
+    thumbnail: "/img/gallery/43.jpeg",
+  },
+  {
+    original: "/img/gallery/44.jpeg",
+    thumbnail: "/img/gallery/44.jpeg",
+  },
+  {
+    original: "/img/gallery/45.jpeg",
+    thumbnail: "/img/gallery/45.jpeg",
+  },
+  {
+    original: "/img/gallery/46.jpeg",
+    thumbnail: "/img/gallery/46.jpeg",
+  },
+  {
+    original: "/img/gallery/47.jpeg",
+    thumbnail: "/img/gallery/47.jpeg",
+  },
+  {
+    original: "/img/gallery/48.jpeg",
+    thumbnail: "/img/gallery/48.jpeg",
+  },
+  {
+    original: "/img/gallery/49.jpeg",
+    thumbnail: "/img/gallery/49.jpeg",
+  },
+  {
+    original: "/img/gallery/50.jpeg",
+    thumbnail: "/img/gallery/50.jpeg",
+  },
+  {
+    original: "/img/gallery/51.jpeg",
+    thumbnail: "/img/gallery/51.jpeg",
+  },
+  {
+    original: "/img/gallery/52.jpeg",
+    thumbnail: "/img/gallery/52.jpeg",
+  },
+  {
+    original: "/img/gallery/53.jpeg",
+    thumbnail: "/img/gallery/53.jpeg",
+  },
+  {
+    original: "/img/gallery/54.jpeg",
+    thumbnail: "/img/gallery/54.jpeg",
+  },
+  {
+    original: "/img/gallery/55.jpeg",
+    thumbnail: "/img/gallery/55.jpeg",
   },
 ];
 

@@ -2,11 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      content="Ottawa home and property inspection services serving Kanata, Barrhaven, Carleton Place, Arnprior, Nepean, Orleans, Riverside South, Russell."
+      name="description"
+    />
+    <meta
+      content="ottawa, home, inspection, inspections, home inspection, home inspections, professional inspectors, civil engineer, construction, peng, 613inspections, 613, Ottawa home inspections, Ottawa home inspectors, home inspections Ottawa, property inspections, kanata, barrhaven, riverside south, Nepean, Orleans, Arnprior, Carleton place, Renfrew, tarion"
+      name="keywords"
+    />
+
+    <meta
+      name="google-site-verification"
+      content="1obzJxfKShvCV6qd1OuDMqvSK5lm9dfC2IDowdxKuHM"
+    />
     <!-- Favicons -->
     <link href="favicon/favicon.ico" rel="icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>613 Inspections Inc.</title>
     <link href="Libraries/aos/aos.css" rel="stylesheet" />
+    <link href="Libraries/glightbox/glightbox.min.js" rel="stylesheet" />
+    <link href="Libraries/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="root"></div>
@@ -21,6 +40,115 @@
           mirror: false,
         });
       });
+    </script>
+    <script src="Libraries/glightbox/glightbox.min.js"></script>
+    <script>
+      const portfolioLightbox = GLightbox({
+        selector: ".portfolio-lightbox",
+      });
+    </script>
+    <script src="Libraries/swiper-bundle/swiper-bundle.min.js"></script>
+    <script>
+      /**
+       * Testimonials slider
+       */
+      new Swiper(".testimonials-slider", {
+        speed: 600,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: "auto",
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      /**
+       * Portfolio details slider
+       */
+      new Swiper(".portfolio-details-slider", {
+        speed: 400,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="Libraries/isotope-layout/isotope-layout.pkgd.min.js"></script>
+    <script>
+      /**
+       * Porfolio isotope and filter
+       */
+      window.addEventListener("load", () => {
+        let portfolioContainer = select(".portfolio-container");
+        if (portfolioContainer) {
+          let portfolioIsotope = new Isotope(portfolioContainer, {
+            itemSelector: ".portfolio-item",
+            layoutMode: "fitRows",
+          });
+
+          let portfolioFilters = select("#portfolio-flters li", true);
+
+          on(
+            "click",
+            "#portfolio-flters li",
+            function (e) {
+              e.preventDefault();
+              portfolioFilters.forEach(function (el) {
+                el.classList.remove("filter-active");
+              });
+              this.classList.add("filter-active");
+
+              portfolioIsotope.arrange({
+                filter: this.getAttribute("data-filter"),
+              });
+              portfolioIsotope.on("arrangeComplete", function () {
+                AOS.refresh();
+              });
+            },
+            true
+          );
+        }
+      });
+    </script>
+    <script src="Libraries/php-email-form/validate.js"></script>
+    <script>
+      /**
+       * Back to top button
+       */
+      let backtotop = select(".back-to-top");
+      if (backtotop) {
+        const toggleBacktotop = () => {
+          if (window.scrollY > 100) {
+            backtotop.classList.add("active");
+          } else {
+            backtotop.classList.remove("active");
+          }
+        };
+        window.addEventListener("load", toggleBacktotop);
+        onscroll(document, toggleBacktotop);
+      }
     </script>
   </body>
 </html>

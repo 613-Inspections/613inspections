@@ -9,6 +9,7 @@ import { HeroSection } from "./components/HeroSection";
 import "./Theme.css";
 import { Header } from "./components/Header";
 import { Gallery } from "./components/Gallery";
+import "./Header.css";
 
 function App() {
   return (

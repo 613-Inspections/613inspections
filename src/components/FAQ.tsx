@@ -52,9 +52,7 @@ export function FAQ() {
                   A home inspection typically involves a comprehensive
                   assessment of the property's exterior and interior, including
                   the roof, foundation, electrical and plumbing systems, heating
-                  and cooling systems, and other components. The inspector will
-                  also check for visible signs of mold, water damage, and pest
-                  infestations.
+                  and cooling systems, and other components.
                 </p>
               </div>
             </li>
@@ -83,6 +81,254 @@ export function FAQ() {
                   on time. This leads to deficiencies that could end up
                   impacting the structural integrity of the home if issues are
                   not rectified in a timely manner.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-41"
+              >
+                What is a PDI (Pre-Delivery Inspection)?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-41"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  A Pre-Delivery Inspection is a thorough examination of a newly
+                  constructed home before the buyer takes possession. It ensures
+                  that the home meets specified standards and addresses any
+                  issues before occupancy.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-42"
+              >
+                What is a 30-Day Tarion Inspection?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-42"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  The 30-Day Tarion Inspection is a part of the Tarion Warranty
+                  Corporation’s new home warranty program in some regions. It
+                  allows homeowners to identify and report any defects or issues
+                  within the first 30 days of occupancy.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-43"
+              >
+                When should I consider a PDI?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-43"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  A PDI is typically conducted before you take possession of a
+                  new home. It’s crucial to identify and address
+                  construction-related issues before moving in.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-44"
+              >
+                When is the 30-Day Tarion Inspection applicable?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-44"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  The 30-Day Tarion Inspection is relevant within the first 30
+                  days of occupancy. During this period, homeowners should
+                  document and report any defects covered under the Tarion
+                  warranty.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-45"
+              >
+                What issues are covered under PDI?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-45"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  A PDI generally covers issues related to construction quality,
+                  finishes, and functionality. It’s an opportunity to catch and
+                  rectify problems before you fully settle into your new home.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-46"
+              >
+                What issues should I report during the 30-Day Tarion Inspection?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-46"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  The 30-Day Tarion Inspection is focused on addressing issues
+                  covered under the Tarion warranty, including any defects in
+                  workmanship or materials that emerge within the initial 30
+                  days.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-47"
+              >
+                Are these inspections mutually exclusive?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-47"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  No, they are not mutually exclusive. A PDI is conducted before
+                  possession, while the 30-Day Tarion Inspection takes place
+                  within the first month of occupancy. Both are important steps
+                  in ensuring the quality and integrity of your new home.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-48"
+              >
+                Can I skip these inspections?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-48"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  It’s not advisable to skip inspections. Both the PDI and
+                  30-Day Tarion Inspection provide opportunities to catch and
+                  address issues early, ensuring that your new home meets
+                  quality standards.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-49"
+              >
+                How do I initiate these inspections?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-49"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  The PDI is typically scheduled by the builder, and the 30-Day
+                  Tarion Inspection process involves homeowners submitting a
+                  form to Tarion within the specified timeframe. Check with your
+                  builder and consult Tarion guidelines for specific procedures.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up">
+              <i className="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                className="collapse"
+                data-bs-target="#faq-list-50"
+              >
+                What if issues are identified during these inspections?
+                <i className="bx bx-chevron-down icon-show"></i>
+                <i className="bx bx-chevron-up icon-close"></i>
+              </a>
+              <div
+                id="faq-list-50"
+                className="collapse"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  If issues are found during the inspections, they are typically
+                  documented and reported. The builder is then responsible for
+                  addressing and rectifying the identified problems, ensuring
+                  that your new home meets the necessary standards.
                 </p>
               </div>
             </li>

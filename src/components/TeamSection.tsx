@@ -17,19 +17,26 @@ export function TeamSection() {
             </div>
           </div>
           <div className="col-lg-6 col-sm-6" data-aos="fade-up">
-            <h4>Sam Hussien, CPI, P.Eng., PMP</h4>
+            <h4>Sam Hussien, CMI, P.Eng., PMP</h4>
             <p>
               <i>Principal Inspector</i>
             </p>
             <p>
               613 Inspections Inc. was founded by our principal inspector, Sam
-              Hussien. Sam is a Certified Professional Inspector (CPI) with the
+              Hussien. Sam is a Certified Master Inspector (CMI) with the
               International Association of Certified Home Inspectors
               (InterNACHI). He is also a licensed civil engineer, working in the
               construction industry. He has inspected hundreds of homes across
               the National Capital Region and has saved his clients thousands of
               dollars by rapidly identifying issues during the inspection
               service.
+            </p>
+            <p>
+              Certified Master Inspector (CMI) is both a U.S. and Canadian
+              registered trademark of the Master Inspector Certification Board,
+              Inc. CMI is the inspection industry’s top professional designation
+              and is awarded to qualifying inspectors who have demonstrated the
+              highest level of competency.
             </p>
             <p>
               Sam is also a distinctive graduate from Carson Dunlop, the school
@@ -51,7 +58,7 @@ export function TeamSection() {
             className="col-lg-3 col-sm-3 col-6 offset-lg-0"
             data-aos="fade-up"
           >
-            <img src={interNACHI} alt="" />
+            <img src={interNACHI} className="img-fluid" alt="" />
           </div>
         </div>
       </div>

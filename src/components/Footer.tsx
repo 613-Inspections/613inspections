@@ -1,3 +1,5 @@
+import "../assets/css/extra.css";
+
 export function Footer() {
   return (
     <footer id="footer">
@@ -64,7 +66,10 @@ export function Footer() {
           All Rights Reserved
         </div>
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by{" "}
+          <a href="https://bootstrapmade.com/" className="myLink">
+            BootstrapMade
+          </a>
         </div>
       </div>
     </footer>

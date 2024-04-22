@@ -383,6 +383,7 @@ h6 {
   transition: 0.5s;
   border: 2px solid #fff;
   color: #fff;
+  text-decoration: none;
 }
 #hero .btn-get-started:hover {
   border-color: #2282ff;
@@ -1067,6 +1068,7 @@ section {
   outline: none;
   cursor: pointer;
   color: #000;
+  text-decoration: none;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
@@ -1169,6 +1171,7 @@ section {
 
 .contact .info a {
   color: #000;
+  text-decoration: none;
 }
 
 .contact .info .email:hover i,
@@ -1347,6 +1350,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  text-decoration: none;
 }
 #footer .footer-top .footer-links ul a:hover {
   color: #2282ff;

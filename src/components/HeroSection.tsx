@@ -8,7 +8,11 @@ export function HeroSection() {
         <h1>
           Know before you buy: Let our inspectors give you the full picture!
         </h1>
-        <a href="#contact" className="btn-get-started scrollto">
+        <a
+          // style={{ textDecoration: "none" }}
+          href="#contact"
+          className="btn-get-started scrollto"
+        >
           Contact Us
         </a>
       </div>

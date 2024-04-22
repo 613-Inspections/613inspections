@@ -1,4 +1,5 @@
 import visa from "../assets/visa.png";
+// import "../assets/css/extra.css";
 
 export function ContactUs() {
   return (
@@ -31,7 +32,7 @@ export function ContactUs() {
                 </a>
                 <h4>Email:</h4>
                 <p>
-                  <a href="mailto:info@613inspections.com">
+                  <a href="mailto:info@613inspections.com" className="myLink">
                     info@613inspections.com
                   </a>
                 </p>
@@ -43,7 +44,9 @@ export function ContactUs() {
                 </a>
                 <h4>Call:</h4>
                 <p>
-                  <a href="tel:+1613-410-1357">+1 613-410-1357</a>
+                  <a href="tel:+1613-410-1357" className="myLink">
+                    +1 613-410-1357
+                  </a>
                 </p>
               </div>
 
@@ -53,7 +56,10 @@ export function ContactUs() {
                 </a>
                 <h4>Instagram:</h4>
                 <p>
-                  <a href="https://www.instagram.com/613inspections/">
+                  <a
+                    href="https://www.instagram.com/613inspections/"
+                    className="myLink"
+                  >
                     @613inspections
                   </a>
                 </p>

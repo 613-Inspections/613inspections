@@ -13,7 +13,7 @@ import "./Header.css";
 import { useEffect, useRef } from "react";
 
 function App() {
-  const backtotopButton = useRef(null);
+  const backtotopButton = useRef<HTMLAnchorElement>(null);
 
   const toggleBacktotop = () => {
     if (window.scrollY > 100) {

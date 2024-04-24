@@ -1,3 +1,5 @@
+import { FAQItem } from "./FAQItem";
+
 export function FAQ() {
   return (
     <section id="faq" className="faq section-bg">
@@ -8,29 +10,12 @@ export function FAQ() {
 
         <div className="faq-list">
           <ul>
-            <li data-aos="fade-up">
-              <i className="bx bx-help-circle icon-help"></i>
-              <a
-                data-bs-toggle="collapse"
-                className="collapse"
-                data-bs-target="#faq-list-2"
-              >
-                What is a home inspection?
-                <i className="bx bx-chevron-down icon-show"></i>
-                <i className="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div
-                id="faq-list-2"
-                className="collapse"
-                data-bs-parent=".faq-list"
-              >
-                <p>
-                  A home inspection is a professional evaluation of a property's
-                  condition and structure, aimed at identifying any issues or
-                  problems that may affect its value or safety.
-                </p>
-              </div>
-            </li>
+            <FAQItem
+              title={"What is a home inspection?"}
+              description={
+                "A home inspection is a professional evaluation of a property's condition and structure, aimed at identifying any issues or problems that may affect its value or safety."
+              }
+            />
 
             <li data-aos="fade-up">
               <i className="bx bx-help-circle icon-help"></i>
@@ -61,7 +46,7 @@ export function FAQ() {
               <i className="bx bx-help-circle icon-help"></i>
               <a
                 data-bs-toggle="collapse"
-                className="collapse"
+                // className="collapse"
                 data-bs-target="#faq-list-4"
               >
                 My home is a new-build. Why should I get it inspected?
@@ -70,7 +55,7 @@ export function FAQ() {
               </a>
               <div
                 id="faq-list-4"
-                className="collapse"
+                // className="collapse"
                 data-bs-parent=".faq-list"
               >
                 <p>

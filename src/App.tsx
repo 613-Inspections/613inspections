@@ -10,8 +10,26 @@ import "./Theme.css";
 import { Header } from "./components/Header";
 import { Gallery } from "./components/Gallery";
 import "./Header.css";
+import { useEffect, useRef } from "react";
 
 function App() {
+  const backtotopButton = useRef(null);
+
+  const toggleBacktotop = () => {
+    if (window.scrollY > 100) {
+      backtotopButton.current?.classList.add("active");
+    } else {
+      backtotopButton.current?.classList.remove("active");
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("scroll", toggleBacktotop);
+    return () => {
+      document.removeEventListener("scroll", toggleBacktotop);
+    };
+  }, []);
+
   return (
     <>
       <Header />
@@ -35,6 +53,7 @@ function App() {
       <a
         href="#"
         className="back-to-top d-flex align-items-center justify-content-center"
+        ref={backtotopButton}
       >
         <i className="bi bi-arrow-up-short"></i>
       </a>

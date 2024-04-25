@@ -1,6 +1,6 @@
 import principleInspectorPhoto from "../assets/team/team-0.jpeg";
 import carson from "../assets/team/carson-dunlop-school.jpeg";
-import cmiStamp from "../assets/team/cmi-stamp.png"
+import cmiStamp from "../assets/team/cmi-stamp.png";
 
 export function TeamSection() {
   return (
@@ -25,11 +25,11 @@ export function TeamSection() {
               613 Inspections Inc. was founded by our principal inspector, Sam
               Hussien. Sam is a Certified Master Inspector (CMI) with the
               International Association of Certified Home Inspectors
-              (InterNACHI). He is also a licensed civil engineer, working in the
-              construction industry. He has inspected hundreds of homes across
-              the National Capital Region and has saved his clients thousands of
-              dollars by rapidly identifying issues during the inspection
-              service.
+              (InterNACHI). He is also a well-respected engineer in the
+              construction industry. Sam has inspected hundreds of properties
+              across the National Capital Region and has saved his clients
+              thousands of dollars by rapidly identifying issues during the
+              inspection service.
             </p>
             <p>
               Certified Master Inspector (CMI) is both a U.S. and Canadian

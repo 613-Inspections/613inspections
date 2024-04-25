@@ -8,8 +8,8 @@ export function Header() {
           <h1>
             <a href="index.html">613 Inspections Inc.</a>
           </h1>
-          <p className="white-text">
-            <span className="bi bi-telephone text-white"></span> 613-410-1357
+          <p className="text-primary">
+            <span className="bi bi-telephone"></span> 613-410-1357
           </p>
         </div>
 

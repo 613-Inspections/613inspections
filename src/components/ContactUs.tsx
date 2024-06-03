@@ -1,3 +1,4 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import visa from "../assets/visa.png";
 // import "../assets/css/extra.css";
 
@@ -77,7 +78,7 @@ export function ContactUs() {
             </div>
             <div className="row mt-3 justify-content-center">
               <div className="col">
-                <img
+                <LazyLoadImage
                   style={{ maxWidth: "50%", maxHeight: "100%" }}
                   src={visa}
                 />

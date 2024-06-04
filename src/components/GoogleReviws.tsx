@@ -4,7 +4,7 @@ export function GoogleReviews() {
       <div className="container">
         <div className="section-title" data-aos="fade-up">
           <h2>Reviews</h2>
-          <p>What Our Customers Say About Us</p>
+          <p>What Our Clients Say About Us</p>
         </div>
         <div>
           <iframe

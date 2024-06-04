@@ -1,6 +1,7 @@
 import principleInspectorPhoto from "../assets/team/team-0.jpeg";
 import carson from "../assets/team/carson-dunlop-school.jpeg";
 import cmiStamp from "../assets/team/cmi-stamp.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function TeamSection() {
   return (
@@ -13,7 +14,7 @@ export function TeamSection() {
         <div className="row">
           <div className="col-lg-3 col-sm-6" data-aos="fade-up">
             <div className="member">
-              <img src={principleInspectorPhoto} className="img-fluid" alt="" />
+              <LazyLoadImage src={principleInspectorPhoto} className="img-fluid" alt="" />
             </div>
           </div>
           <div className="col-lg-6 col-sm-6" data-aos="fade-up">
@@ -52,13 +53,13 @@ export function TeamSection() {
             className="col-lg-3 col-sm-3 col-6 offset-lg-3 offset-sm-6"
             data-aos="fade-up"
           >
-            <img src={carson} className="img-fluid" alt="" />
+            <LazyLoadImage src={carson} className="img-fluid" alt="" />
           </div>
           <div
             className="col-lg-3 col-sm-3 col-6 offset-lg-0"
             data-aos="fade-up"
           >
-            <img src={cmiStamp} className="img-fluid" alt="" />
+            <LazyLoadImage src={cmiStamp} className="img-fluid" alt="" />
           </div>
         </div>
       </div>

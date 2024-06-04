@@ -1,10 +1,13 @@
+import { LazyLoadImage } from "react-lazy-load-image-component"; 
+
+
 export function AboutSection() {
   return (
     <section id="about" className="about">
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-7" data-aos="fade-right">
-            <img
+            <LazyLoadImage
               loading="lazy"
               src="/img/about/about.jpeg"
               className="img-fluid"

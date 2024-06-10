@@ -1,7 +1,16 @@
+import { useState } from "react";
+import "../assets/css/extra.css"
+
 export function NavBar() {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleToggle = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <nav id="navbar" className="navbar">
-      <ul>
+      <ul className={isActive ? 'active' : ''}>
         <li>
           <a className="nav-link scrollto active" href="#hero">
             Home
@@ -43,7 +52,7 @@ export function NavBar() {
           </a>
         </li>
       </ul>
-      <i className="bi bi-list mobile-nav-toggle"></i>
+      <button className="bi bi-list mobile-nav-toggle" onClick={handleToggle}></button>
     </nav>
   );
 }

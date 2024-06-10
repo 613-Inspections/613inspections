@@ -1,7 +1,67 @@
+
 .myLink {
   text-decoration: none;
 }
 
 .white-text {
   color: white;
+}
+
+/* Add this CSS to your stylesheet */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #000000;
+  color: white;
+  position: relative;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-nav-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #000000; /* Match the navbar background color */
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  .navbar ul.active {
+    display: flex;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
 }

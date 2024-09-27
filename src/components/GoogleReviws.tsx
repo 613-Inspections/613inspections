@@ -8,7 +8,7 @@ export function GoogleReviews() {
         </div>
         <div>
           <iframe
-            src="https://widgets.sociablekit.com/google-reviews/iframe/25420407"
+            src="https://widgets.sociablekit.com/google-reviews/iframe/25468343"
             frameBorder="0"
             width="100%"
             height="1000"
